@@ -1,0 +1,175 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0 !important;
+    } 
+    .float-right{
+        float: right;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+    .header-class {
+        background-color: rgb(190, 66, 35);
+    }
+    .menu-item {
+        display: inline;
+        margin-right: 60px;
+    }
+    nav{
+        background-image: url(./images/baneer\ 1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+
+    }
+    .banner{
+        width: 35%;
+        height: auto;
+        float: left;
+        text-align: left;
+        color:white;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+    button{
+        padding:10px;
+        border-radius:8px ;
+        margin-top: 3%;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top:5px;
+        height: 40px;
+        width: 40px;
+    }
+    .pra{
+        float: right;
+        text-align: right;
+        padding-right: 5%;
+        padding-top: 2%;
+    }
+   .p{
+       margin-left: 100%;
+   }
+   .flex{
+       display: flex;
+       justify-content: space-evenly;
+       padding:10px;
+
+   }
+   .product{
+       background-color: orchid;
+       padding: 110px;
+       margin: 50px;
+       border: 1px solid;
+   }
+   .nav1{
+    background-image: url(./images/banner\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+   }
+   .banner2{
+    width: 35%;
+    height: auto;
+    float: left;
+    text-align: left;
+    color:white;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.button1{
+    padding:10px;
+    border-radius:8px ;
+    margin-top: 3%;
+}
+.div1 {
+    font-size: 20px;
+    font-weight:20;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+    padding:5px;
+    border-radius:8px ;
+    margin-top: 1%;
+
+}
+.div2 {
+    font-size: 20px;
+    font-weight:20;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+    padding:5px;
+    border-radius:8px ;
+    margin-top: 1%;
+
+}
+.div3 {
+    font-size: 20px;
+    font-weight:20;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1px;
+    padding:5px;
+    border-radius:8px ;
+    margin-top: 1%;
+    
+
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+}
+.button5{
+    justify-content: center;
+    pad: 10px;
+    padding:10px;
+    border-radius:15px ;
+    margin-top: 3%;
+}
+   
+.div5 {
+    background-attachment:black;
+    display: flex;
+    padding-left: initial;
+}
+.div6{
+    border: solid;
+    background-color: rgb(160, 240, 128);
+    width: 35%;
+    height: auto;
+    float: left;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.footer{
+    background-color: lightcoral;
+    justify-content:center;
+    float:none;
+    padding-right: 80px;
+}
+@media only screen and (max-width:400px) {
+    .float-right,.banner,.banner2{
+       display: none;
+}   
+
+}
